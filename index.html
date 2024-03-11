@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="shortcut icon" href="https://pascualbravo.edu.co/wp-content/uploads/2019/12/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <title>Resistencia</title>
+</head>
+<body>
+
+    <div class="DivP">
+        <form>
+            <h1>Calculadora de Resistencia 4 bandas</h1>
+           
+            <!-- Banda 1------------------------------------ -->
+            <select class="form-select mb-3 BGw" id="Banda1">
+                <option  class="BGw" selected>Selecione el color de la banda #1</option>
+                <option class="BGnegro" value="0">Negro -- 0</option>
+                <option class="BGCafe" value="10">Cafe -- 1</option>
+                <option class="BGrojo" value="20">rojo -- 2</option>
+                <option class="BGnaranja" value="30">Naranja -- 3</option>
+                <option class="BGamarillo" value="40">Amarillo -- 4</option>
+                <option class="BGverde" value="50">Verde -- 5</option>
+                <option class="BGazul" value="60">Azul -- 6</option>
+                <option class="BGmorado" value="70">Morado -- 7</option>
+                <option class="BGgris" value="80">Gris -- 8</option>
+                <option class="BGw" value="90">Blanco --> 9</option>
+              </select>
+
+<!-- Banda 2------------------------------ -->
+
+        <select class="form-select mb-3 BGw" id="Banda2">
+            <option  class="BGw" selected>Selecione el color de la banda #2 </option>
+            <option class="BGnegro" value="0">Negro -- 0</option>
+            <option class="BGCafe" value="1">Cafe -- 1</option>
+            <option class="BGrojo" value="2">rojo -- 2</option>
+            <option class="BGnaranja" value="3">Naranja -- 3</option>
+            <option class="BGamarillo" value="4">Amarillo -- 4</option>
+            <option class="BGverde" value="5">Verde -- 5</option>
+            <option class="BGazul" value="6">Azul -- 6</option>
+            <option class="BGmorado" value="7">Morado -- 7</option>
+            <option class="BGgris" value="8">Gris -- 8</option>
+            <option class="BGw" value="9">Blanco -- 9</option>
+        </select>
+              
+
+              <!-- Banda 3 ---------------------------------- -->
+
+              <select class="form-select mb-3 BGw" id="Banda3">
+                <option class="BGw" selected>Selecione el color de la banda #3 (Multiplicador)</option>
+                <option class="BGnegro" value="1">Negro -- 1</option>
+                <option class="BGCafe" value="10">Cafe -- 10</option>
+                <option class="BGrojo" value="100">rojo -- 100</option>
+                <option class="BGnaranja" value="1000">Naranja -- 1000</option>
+                <option class="BGamarillo" value="10000">Amarillo -- 10000</option>
+              </select>
+
+               
+              
+              <!-- Banda 4 ------------ ----->
+              <select class="form-select mb-3 BGw" id="Banda4">
+                <option class="BGw" selected>Selecione el color de la banda #4 (tolerancia)</option>
+                <option class="BGCafe" value="0.01">Cafe  1%</option>
+                <option class="BGrojo" value="0.02">rojo  2%</option>
+                <option class="BGverde" value="0.005">Verde  0.5%</option>
+                <option class="BGamarillo" value="0.05">Dorado  5%</option>
+                <option class="BGgris" value="0.10">Plateado  10%</option>
+              </select>
+
+
+              <button class="btn btn-outline-success" type="button" onclick="Calcular()" id="Continuar">Calcular Resistencia</button>
+
+         <h2 id="AAA">Valor Total: </h2>
+         <h2 id="AAB">Valor Maximo: </h2>
+         <h2 id="AAC">Valor Minimo: </h2>
+         
+
+             
+        </form>
+    </div>
+    
+
+    <script src="jquery.js"></script>
+    <script src="js.js"></script>
+</body>
+</html> 

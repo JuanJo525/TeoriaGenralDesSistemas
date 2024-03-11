@@ -1,0 +1,80 @@
+body{
+    margin: 0%;
+    background-color: rgb(7, 7, 7);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h2{
+    margin: 10px;
+}
+
+.DivP{
+    margin: 4rem auto;
+    width: 60%;
+    background-color: #fff;
+    border-radius: 10px;
+    padding: .5rem;
+}
+
+
+.BGnegro{
+    color: #fff;
+    background-color: black;
+}
+
+.BGCafe{
+    color: #fff;
+    background-color: rgb(104, 38, 7);
+}
+
+.BGrojo{
+    color: #fff;
+    background-color: red;
+}
+
+.BGnaranja{
+    color: #fff;
+    background-color: orange;
+}
+
+
+.BGamarillo{
+    color: #000000;
+    background-color: yellow;
+}
+
+
+.BGverde{
+    color: #fff;
+    background-color:green;
+}
+
+.BGazul{
+    color: #fff;
+    background-color: blue;
+}
+
+.BGmorado{
+    color: #fff;
+    background-color: purple;
+}
+
+.BGgris{
+    color: #fff;
+    background-color:grey;
+}
+
+.BGoro{
+        color: #fff;
+        background-color: gold;
+}
+
+.BGplata{
+        color: #fff;
+        background-color: rgb(71, 71, 71);
+}
+
+.BGw{
+    color:black;
+    background-color: #fff;
+}
